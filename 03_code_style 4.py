@@ -6,7 +6,7 @@ x, y = 10, 29
 
 if x < 0:
     print('Х меньше нуля')
-    z = x**2 + y
+    z = x ** 2 + y
 else:
     print('Х больше нуля')
     z = x - y
@@ -65,30 +65,28 @@ my_poem = ['Варкалось, хливкие шорьки пырялись п�
 
 # пробелы в операторах
 
-x =2
-y= x* x+ 1
-is_big=x   >=3000
+x = 2
+y = x * x + 1
+is_big = x >= 3000
 
-x = my_poem   [-1]
-print    (x)
-my_list= [2,3 ,4,   5,6,]
+x = my_poem[-1]
+print(x)
+my_list = [2, 3, 4, 5, 6, ]
 
 # reformat кода
 
-x,y = 3,8
+x, y = 3, 8
 
-if x==3    :
-    print   (42)
+if x == 3:
+    print(42)
 
-if x<0 :
-    if   y > 0:
-        print( 'налево!')
+if x < 0:
+    if y > 0:
+        print('налево!')
     else:
-        print(                    'направо!')
-else       :
-    print(
-      'стой!')
-
+        print('направо!')
+else:
+    print('стой!')
 
 # названия переменных
 
@@ -100,7 +98,7 @@ my_favorite_pets_and_bird = ['cat', 'wolf', 'ostrich']
 if 'lion' in my_favorite_pets_and_bird:
     print('Wow!')
 
-MyFavoritePetsAndBirds = ['cat', 'wolf', 'ostrich']
+my_favorite_pets_and_birds = ['cat', 'wolf', 'ostrich']
 # но такой стиль используется для названий классов
 
 
@@ -113,12 +111,12 @@ MyFavoritePetsAndBirds = ['cat', 'wolf', 'ostrich']
 #   x y z - для координат
 
 # никогда не используйте в названиях переменных одиночные l, I, O  !
-l = 34
-I = 43
-if l > I:
+x = 34
+y = 43
+if x > y:
     print()
-O = 9
-if O > 0:
+z = 9
+if z > 0:
     print()
 
 # lowercase (слово в нижнем регистре)
