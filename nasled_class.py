@@ -2,7 +2,7 @@ class Car:
     price = 1000000
 
     def horse_powers(self):
-        return 'количество лошидиных сил для автомобиля'
+        return 'количество лошадиных сил для автомобиля'
 
 
 class Nissan(Car):
